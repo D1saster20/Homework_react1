@@ -4,9 +4,8 @@ const Simpsons = () => {
     const Simpsons = [
         {   id : 1,
             name: 'Homer',
-            become: 'Male'
-            image:
-
+            become: 'Male',
+            image:'https://upload.wikimedia.org/wikipedia/uk/0/02/Homer_Simpson_2006.png'
         }
     ]
     return (
