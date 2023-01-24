@@ -1,18 +1,14 @@
-import React from 'react';
 
-const Simpsons = () => {
-    const Simpsons = [
-        {   id : 1,
-            name: 'Homer',
-            become: 'Male',
-            image:'https://upload.wikimedia.org/wikipedia/uk/0/02/Homer_Simpson_2006.png'
-        }
-    ]
+
+const Simpson = ({simpson}) => {
+    const { name, become, image} = simpson;
     return (
         <div>
-
+            <div>name: {name}</div>
+            <div>become: {become}</div>
+            <img src={image} alt={name}/>
         </div>
     );
 };
 
-export default Simpsons;
+export {Simpson};
