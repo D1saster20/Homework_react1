@@ -3,7 +3,7 @@ import {axiosService} from "./axiosService";
 
 const postService = {
     getAll: () => axiosService.get('/posts'),
-    getById: (id) =>axiosService.get(`/posts/${id}`)
+    getById: (userId) =>axiosService.get(`/posts/${userId}`)
 };
 
 export default postService

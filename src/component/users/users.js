@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {User} from "../user/user";
-import {axiosService} from "../service/axiosService";
+import {axiosService} from "../../service/axiosService";
 
 
 
